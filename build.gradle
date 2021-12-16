@@ -27,3 +27,9 @@ allprojects {
         }
     }
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.douggschwind.games.chess.Chess'
+    }
+}
